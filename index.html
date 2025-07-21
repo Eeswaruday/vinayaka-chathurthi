@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕉️ Vinayaka Chavithi 2025 🕉️ Vellampalli Village Celebration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+            font-size: 16px;
+        }
+
+        /* Header and Navigation */
+        .header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6f00;
+  color: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.dropdown-nav {
+  font-size: 1rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+  color: #ff6f00;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.4rem 0.8rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+        }
+
+        .nav-menu a:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-top: 70px;
+            padding: 1rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #ff8f00 0%, #ff6f00 50%, #ff3d00 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255,111,0,0.3);
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            font-weight: 500;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        /* Scroll Button */
+        .scroll-button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.5);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-button:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateX(-50%) translateY(-3px);
+        }
+
+        .scroll-button::after {
+            content: '↓';
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
+        }
+
+        /* Countdown Timer */
+        .countdown-container {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .countdown-title {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: rgba(255,255,255,0.2);
+            padding: 0.8rem;
+            border-radius: 10px;
+            text-align: center;
+            min-width: 70px;
+        }
+
+        .countdown-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .countdown-label {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        /* Sections */
+        .section {
+            background: white;
+            margin: 1.5rem 0;
+            padding: 2rem 1rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 5px solid #ff8f00;
+        }
+
+        .section h2 {
+            color: #ff6f00;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #ff8f00, #ff3d00);
+            border-radius: 2px;
+        }
+
+        /* Event Info Styles */
+        .event-dates {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .date-card {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid #ff8f00;
+            transition: transform 0.3s ease;
+        }
+
+        .date-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .date-card.special {
+            background: linear-gradient(135deg, #ff8f00 0%, #ff6f00 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(255,111,0,0.4);
+        }
+
+        .date-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .date-card .day {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .date-card .description {
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+
+        .activities {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .activity-card {
+            background: #fff8e1;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #ffcc02;
+        }
+
+        .activity-card h4 {
+            color: #e65100;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        /* Social Sharing */
+        .social-sharing {
+            text-align: center;
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: #fff3e0;
+            border-radius: 10px;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .social-btn {
+            padding: 0.6rem 1rem;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .whatsapp { background: #25d366; }
+        .instagram { background: #e4405f; }
+        .facebook { background: #1877f2; }
+
+        /* Members List */
+        .members-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .member-card {
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 100%);
+            padding: 1rem;
+            border-radius: 12px;
+            border-left: 4px solid #ff8f00;
+            transition: transform 0.3s ease;
+        }
+
+        .member-card:hover {
+            transform: translateX(3px);
+            box-shadow: 0 5px 15px rgba(255,143,0,0.2);
+        }
+
+        .member-name {
+            font-weight: 600;
+            color: #e65100;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-phone {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .sponsor-tag {
+            background: #ff8f00;
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+
+        /* Donation Section */
+        .donation-info {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffcc02 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            margin: 1.5rem 0;
+            border: 3px solid #ff8f00;
+        }
+
+        .upi-id {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #e65100;
+            background: white;
+            padding: 0.8rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            border: 2px dashed #ff8f00;
+        }
+
+        .qr-section {
+            margin: 1.5rem 0;
+        }
+
+        .qr-section img {
+            border: 3px solid #ff8f00;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Gallery Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .video-container {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Contact Cards */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, #fff8e1 0%, #ffe0b2 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid #ff8f00;
+        }
+
+        .contact-card h4 {
+            color: #e65100;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            color: #555;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background: #fff8e1;
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-top: 1.5rem;
+            border: 2px solid #ff8f00;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #e65100;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.7rem;
+            border: 2px solid #ffcc02;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #ff8f00;
+        }
+
+        .submit-btn {
+            background: linear-gradient(90deg, #ff8f00, #ff6f00);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            background: #25d366;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(90deg, #ff8f00 0%, #ff6f00 100%);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Mobile Responsiveness */
+        @media (min-width: 768px) {
+            .event-dates {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .activities {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .members-grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .contact-grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .gallery-item img {
+                height: 200px;
+            }
+            
+            .submit-btn {
+                width: auto;
+                padding: 1rem 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .nav-menu {
+                gap: 0.5rem;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 1.5rem 0.8rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .main-content {
+                margin-top: 100px;
+            }
+
+            .countdown {
+                gap: 0.3rem;
+            }
+
+            .countdown-item {
+                min-width: 55px;
+                padding: 0.6rem;
+            }
+
+            .countdown-number {
+                font-size: 1.2rem;
+            }
+
+            .social-buttons {
+                gap: 0.3rem;
+            }
+
+            .social-btn {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+}
+    </style>
+    <script>
+  function scrollToNextSection() {
+    const nextSection = document.querySelector("main");
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+</script>
+
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header class="header">
+            <div class="header-bar">
+  <h1 class="site-title">🪔 Vinayaka Chavithi 2025</h1>
+  <select class="dropdown-nav" onchange="navigateToSection(this)">
+    <option selected disabled>Select</option>
+    <option value="#count-down">count-down</option>
+    <option value="#event-info">Event Info</option>
+    <option value="#acknowledgment">Acknowledgment</option>
+    <option value="#members">Members</option>
+    <option value="#gallery">gallery</option>
+    <option value="#contact">Contact</option>
+    <option value="#sponsers-form">sponsers-form</option>
+  </select>
+</div>
+</header>
+
+<script>
+  function navigateToSection(select) {
+    const section = select.value;
+    if (section) {
+      document.querySelector(section).scrollIntoView({ behavior: "smooth" });
+    }
+  }
+</script>
+
+<!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <div class="container">
+            <section id="count-down" class="hero">
+                <h1>🙏 Vinayaka Chavithi 2025 🙏</h1>
+                <p>Join us for the grand celebration in Vellampalli Village</p>
+                <div class="hero-subtitle">Rajula mitta, vellampalli, Andhra Pradesh</div>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-container">
+                    <div class="countdown-title">⏰ Countdown to Celebration</div>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="days">00</span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">00</span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">00</span>
+                            <span class="countdown-label">Minutes</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">00</span>
+                            <span class="countdown-label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Event Info Section -->
+            <section id="event-info" class="section">
+                <h2>📅 Event Information</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Join us for five days of devotion, celebration, and community spirit as we honor Lord Ganesha with decorated pandiri, traditional poojas, prasadam distribution, cultural activities, and community involvement.
+                </p>
+
+                <div class="event-dates">
+                    <div class="date-card special">
+                        <h3>August 27, 2025</h3>
+                        <p class="day">Wednesday</p>
+                        <p class="description">Vinayaka Chavithi - Day 1</p>
+                    </div>
+                    <div class="date-card">
+                        <h3>August 28, 2025</h3>
+                        <p class="day">Thursday</p>
+                        <p class="description">Second Day Celebrations</p>
+                    </div>
+                    <div class="date-card">
+                        <h3>August 29, 2025</h3>
+                        <p class="day">Friday</p>
+                        <p class="description">Third Day Celebrations</p>
+                    </div>
+                    <div class="date-card">
+                        <h3>August 30, 2025</h3>
+                        <p class="day">Saturday</p>
+                        <p class="description">Fourth Day Celebrations</p>
+                    </div>
+                    <div class="date-card special">
+                        <h3>August 31, 2025</h3>
+                        <p class="day">Sunday</p>
+                        <p class="description">Vinayaka Nimajjanam Day</p>
+                    </div>
+                </div>
+
+                <div class="activities">
+                    <div class="activity-card">
+                        <h4>🏮 Decorated Pandiri</h4>
+                        <p>Beautiful decorations and festive ambiance throughout the celebration</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🙏 Daily Poojas</h4>
+                        <p>Traditional prayers and rituals performed with devotion</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🍛 Prasadam Distribution</h4>
+                        <p>Sacred food offerings blessed by Lord Ganesha for all devotees</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🎭 Cultural Activities</h4>
+                        <p>Traditional performances and community events</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🤝 Community Involvement</h4>
+                        <p>Active participation from all village members and visitors</p>
+                    </div>
+                </div>
+
+                <!-- Social Sharing -->
+                <div class="social-sharing">
+                    <h3 style="color: #e65100; margin-bottom: 1rem;">📢 Share the Celebration</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">Spread the word about our Vinayaka Chavithi celebration</p>
+                    <div class="social-buttons">
+                        <a href="https://wa.me/?text=Join%20us%20for%20Vinayaka%20Chavithi%202025%20in%20Vellampalli%20Village%20from%20August%2027-31!" class="social-btn whatsapp">📱 WhatsApp</a>
+                        <a href="https://www.instagram.com/" class="social-btn instagram">📸 Instagram</a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=" class="social-btn facebook">👥 Facebook</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- General Acknowledgment Section -->
+            <section id="acknowledgment" class="section">
+                <h2>🙏 General Acknowledgment</h2>
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem; color: #666;">
+                        We are grateful for your support in making this celebration memorable
+                    </p>
+                    
+                    <div style="background: #fff8e1; padding: 1.5rem; border-radius: 10px; margin: 1.5rem 0; border: 2px solid #ffcc02;">
+                        <h4 style="color: #e65100; margin-bottom: 1rem;">🍛 Prasadam Distribution</h4>
+                        <p style="color: #666;">Sacred prasadam will be distributed to all devotees every day throughout the celebration period</p>
+                    </div>
+
+                    <div style="background: #fff8e1; padding: 1.5rem; border-radius: 10px; margin: 1.5rem 0; border: 2px solid #ffcc02;">
+                        <h4 style="color: #e65100; margin-bottom: 1rem;">🎭 Entertainment Information</h4>
+                        <p style="color: #666;">For details about cultural activities and entertainment programs, please approach our organizing team members</p>
+                    </div>
+                </div>
+
+                <div class="donation-info">
+                    <h3 style="color: #e65100; margin-bottom: 1rem;">💰 Support Our Celebration</h3>
+                    <p style="margin-bottom: 1rem;">Your donations help us organize this beautiful celebration</p>
+                    
+                    <div class="upi-id">
+                        UPI ID: 9948556090@postbank
+                    </div>
+
+                    <div class="qr-section">
+                        <p style="font-weight: 600; margin-bottom: 1rem; color: #e65100;">Scan to Donate:</p>
+                        <img src="upi_qr.png" width="250" alt="UPI QR Code for Donations" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Honourable Members Section -->
+            <section id="members" class="section">
+                <h2>👥 Honourable Members</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Meet our dedicated organizing committee members
+                </p>
+
+                <div class="members-grid">
+                    <div class="member-card">
+                        <div class="member-name">Kusampudi Eeswar Uday</div>
+                        <div class="member-phone">📞 9848863038</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Sagi Kumar Varma</div>
+                        <div class="member-phone">📞 9948556090</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Samanthapudi Akhil Varma</div>
+                        <div class="member-phone">📞 9014476677</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Uppalapati Pawan (Pandu)</div>
+                        <div class="member-phone">📞 9866918299</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Samanthapudi Ajay Varma</div>
+                        <div class="member-phone">📞 9014476677</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Nanda Kishore</div>
+                        <div class="member-phone">📞 7075545698</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Tharun</div>
+                        <div class="member-phone">📞 Contact through other members</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Mahaveer Singh</div>
+                        <div class="member-phone">📞 6304010543</div>
+                        <div class="sponsor-tag">🍬 Laddu Sponsor</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="section">
+                <h2>📸 Gallery</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Memories from our celebrations and preparation activities
+                </p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="image1.jpg" alt="Vinayaka Chavithi Celebration ">
+                    </div>
+                </div>
+                <div class="video-container">
+                    <h3 style="color: #e65100; margin-bottom: 1rem;">🎥 Pandiri Building Example</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">Watch how traditional pandiri decorations are created</p>
+                    <div class="video-wrapper">
+                        <iframe src="video pandiri making.mp4" 
+                                title="Pandiri Building Example" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>📞 Contact Us</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    For any inquiries or information, feel free to reach out to us
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h4>Eeswar Uday</h4>
+                        <div class="contact-info">📞 9848863038</div>
+                        <div class="contact-info">✉️ uday90925@gmail.com</div>
+                    </div>
+                    <div class="contact-card">
+                        <h4>Kumar</h4>
+                        <div class="contact-info">📞 9948556090</div>
+                    </div>
+                </div>
+
+                <!-- Sponsors and Volunteers Form -->
+                 <section id="sponsers-form" class="section">
+
+                     <div class="contact-form">
+                         <h3 style="color: #e65100; text-align: center; margin-bottom: 1.5rem;">🤝 Sponsors & Volunteers</h3>
+                         <p style="text-align: center; color: #666; margin-bottom: 2rem;">
+                             Interested in sponsoring or volunteering? Get in touch with us!
+                            </p>
+                            
+                            <form id="sponsorForm">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Tell us how you'd like to contribute..."></textarea>
+                                </div>
+                                <div style="text-align: center;">
+                                    <button type="submit" class="submit-btn">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            
+            <!-- WhatsApp Float Button -->
+            <a href="https://wa.me/919848863038?text=Hello!%20I%20have%20a%20question%20about%20Vinayaka%20Chavithi%202025%20celebration" 
+            class="whatsapp-float" 
+            target="_blank" 
+            title="Chat with Eeswar Uday">
+            💬
+        </a>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Vinayaka Chavithi - Vellampalli</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">
+                🙏 Ganpati Bappa Morya! 🙏
+            </p>
+        </footer>
+    </section>
+        
+        <script>
+            // Countdown Timer
+        function updateCountdown() {
+            const eventDate = new Date('2025-08-27T00:00:00').getTime();
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+            
+            if (distance > 0) {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('days').textContent = days.toString().padStart(2, '0');
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            } else {
+                document.getElementById('countdown').innerHTML = '<div style="font-size: 1.5rem; font-weight: 600;">🎉 The Celebration Has Begun! 🎉</div>';
+            }
+        }
+        
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call
+        
+        // Form submission handler
+        document.getElementById('sponsorForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Create WhatsApp message
+            const whatsappMessage = `Hello! I'm interested in sponsoring/volunteering for Vinayaka Chavithi 2025.
+            
+            Name: ${name}
+            Phone: ${phone}
+            Email: ${email}
+            Message: ${message}`;
+            
+            const whatsappUrl = `https://wa.me/919848863038?text=${encodeURIComponent(whatsappMessage)}`;
+            
+            // Open WhatsApp
+            window.open(whatsappUrl, '_blank');
+            
+            // Reset form
+            this.reset();
+            
+            alert('Thank you for your interest! You will be redirected to WhatsApp to send your message to Eeswar Uday.');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Scroll button functionality
+        function scrollToNextSection() {
+            const eventSection = document.getElementById('event-info');
+            if (eventSection) {
+                eventSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+        </script>
+</body>
+</html>
